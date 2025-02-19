@@ -39,9 +39,13 @@ table {
 td{
 	color:#424140;
 	background-color:#FFDFD3;
+	padding:7px;
+	margin:7px;
 }
 th{
 	background-color:#F8D4C0;
+	margin:7px;
+	padding:7px;
 }
 #caption{
 	width:100%;

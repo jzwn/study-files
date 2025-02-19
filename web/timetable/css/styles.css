@@ -12,7 +12,7 @@ table {
 	margin: 7px 0;
 }
 .body {
-	background-color: #F9D7B7;
+	background-color: #E4E2CF;
 	font-family: Arial, sans-serif;
 }
 #header{
@@ -38,6 +38,10 @@ table {
 }
 td{
 	color:#424140;
+	background-color:#FFDFD3;
+}
+th{
+	background-color:#F8D4C0;
 }
 #caption{
 	width:100%;

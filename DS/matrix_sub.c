@@ -34,7 +34,7 @@ int main()
                 }
         }
 
-        printf("Matrix A + Matrix B : \n");
+        printf("Matrix A - Matrix B : \n");
         for (i=0;i<rows;i++)
         {
                 printf("\n");

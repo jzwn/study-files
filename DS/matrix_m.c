@@ -52,7 +52,7 @@ int main()
         }
 
 	printf("Multiplied Array : ");
-	printf("Matrix A + Matrix B : \n");
+	printf("Matrix A * Matrix B : \n");
 	for (i=0;i<row1;i++)
         {
 		printf("\n");

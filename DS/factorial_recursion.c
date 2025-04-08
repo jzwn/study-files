@@ -1,22 +1,22 @@
-#include <stdio.h>
-
-int factorial(int n) {
-    if (n == 0 || n == 1)
-        return 1;
-    else
-        return n * factorial(n - 1);
+#include<stdio.h>
+int fact(int n)
+{
+	if (n==0)
+	{
+		return 1;
+	}
+	else
+	{
+		return n*fact(n-1);
+	}
 }
 
-int main() {
-    int num;
-
-    printf("Enter a number: ");
-    scanf("%d", &num);
-
-    if (num < 0)
-        printf("Factorial is not defined for negative numbers.\n");
-    else
-        printf("Factorial of %d is %d\n", num, factorial(num));
-
-    return 0;
+int main()
+{
+	int n,f;
+	printf("Enter a number to find factorial : ");
+	scanf("%d",&n);
+	f=fact(n);
+	printf("Factorial = %d\n",f);
+	return 0;
 }
